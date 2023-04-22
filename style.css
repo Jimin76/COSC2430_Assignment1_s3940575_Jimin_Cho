@@ -383,7 +383,7 @@ button:hover {
     
 }
 
-.book_imgg, .book1, .book2, .book3 {
+.big_img, .book1, .book2, .book3 {
     width: 100%;
     height: auto;   
 }
@@ -409,7 +409,7 @@ button:hover {
     .detail_price, .price{
         align-self: center;
     }
-    .book_imgg {
+    .big_img {
         width: 400%;
     }
     
