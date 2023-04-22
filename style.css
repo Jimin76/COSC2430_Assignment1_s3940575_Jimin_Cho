@@ -553,3 +553,28 @@ select {
 .About_Us_and_others h2, p {
     margin: 0% 3% 7% 3%;
 }
+
+/*Purchase*/
+.purchase-window {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 400px;
+  margin: 5% auto 20%;
+}
+
+.purchase-window h2 {
+  margin-top: 0;
+}
+
+
+.purchase-window button{
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
