@@ -8,6 +8,8 @@ ID: S3940575
 Acknowledgment: (logo)https://www.canva.com/, (book images and details)https://www.amazon.com/
 */
 
+
+/*Font Styles*/
 h2, h3, p, button, label, li, option, input{
     font-family: 'Abel', sans-serif;
 }
@@ -20,6 +22,8 @@ h4 {
     font-family: 'Satisfy', cursive;
 }
 
+
+/*Main page*/
 h1 {
     text-align: center;
 }
@@ -35,9 +39,10 @@ body {
     display: flex;
     justify-content: flex-end;
     position: absolute;
-    top: 1px;
+    top: 5px;
     right: 5px;
     width: 300px;
+    height: 38px;
 }
   
 input {
@@ -54,6 +59,13 @@ input {
     top: 10px;
     right: 12px;
     margin: 0;
+}
+
+@media (max-width: 960px) {
+    .search {
+        top: 1px;
+        height: 38px;
+    }
 }
 
 /* Navigation Bar Style */
@@ -180,7 +192,7 @@ footer .navbar{
     margin: 10px;
     color: #364E68;
 }
-/*main page category breadcrumb*/
+/*main page main category(Fiction, non-fiction) breadcrumb */
 .Category_breadcrumb {
     display: flex;
     justify-content: center;
@@ -207,7 +219,7 @@ footer .navbar{
 }
 
 
-/*images*/
+/*main page images*/
 .logo {
     width: 130px;height:40px; 
 }
@@ -368,6 +380,7 @@ button:hover {
 	justify-content: space-around;
 }
 
+/*3column layout*/
 .detail_image, .detail_small_image, .detail_price {
     display: flex;
     justify-content: center;
@@ -399,6 +412,7 @@ button:hover {
     width: 150px;
 }
 
+/*1column layout*/
 @media only screen and (max-width: 960px) {
     .detail_small_image {
         flex-direction: row;
@@ -431,6 +445,7 @@ button:hover {
     transition: 1s ease-in-out;
 }
 
+/*A function that expands the size of small books when they hover*/
 .transform1:hover .book1{
     transform: scale(4);
 }
@@ -443,6 +458,7 @@ button:hover {
     transform: scale(2.5);
 }
 
+/*scale adjustment when using small screen*/
 @media only screen and (max-width: 960px) {
     .transform1:hover .book1{
         transform: scale(8);
@@ -473,14 +489,15 @@ button:hover {
 	width: calc(50% - 20px);
 	margin-bottom: 40px;
     
-
+/*to place input and labels in different line while using small screen*/
 }
 @media only screen and (max-width: 960px) {
     .form {
         flex-direction: column;
     }
 }
-/*make the text area and select input rounded*/
+
+/*to make the text area and select input rounded*/
 textarea, select {
     border-radius: 8px;
   }
