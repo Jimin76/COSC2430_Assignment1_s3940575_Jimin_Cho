@@ -16,6 +16,10 @@ h1, .category, .Category_breadcrumb {
     font-family: 'Lobster', cursive;
 }
 
+h4 {
+    font-family: 'Satisfy', cursive;
+}
+
 h1 {
     text-align: center;
 }
@@ -551,8 +555,37 @@ select {
 }
 
 /*About Us and others style*/
-.About_Us_and_others h2, p {
+.Me {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0% 5% 0% 5%;
+}
+
+.Me img {
+    width: 15%;
+}
+
+
+.About_Us_and_others h2, p, h4 {
     margin: 0% 3% 7% 3%;
+}
+
+.Me h4 {
+    margin: 0% 3% 0% 0%;
+}
+
+.Me p {
+    margin: 0% 0% 0% 3%;
+}
+
+@media only screen and (max-width: 960px) {
+    .Me {
+        justify-content: center;
+    }
+    .Me img {
+        width: 90%;
+    }
 }
 
 /*Purchase*/
