@@ -1,2 +1,4 @@
 # COSC2430_Assignment1_s3940575_Jimin_Cho
 COSC2430_Assignment1_s3940575_Jimin_Cho_Web_Programming_Assignment
+Online website URL: https://github.com/Jimin76/COSC2430_Assignment1_s3940575_Jimin_Cho
+Github repository URL: https://jimin76.github.io/COSC2430_Assignment1_s3940575_Jimin_Cho/Home/
